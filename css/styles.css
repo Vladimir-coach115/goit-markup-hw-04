@@ -41,7 +41,7 @@ img {
 }
 
 .container {
-  /* outline: solid 2px tomato; */
+  outline: solid 2px tomato;
   width: 1158px;
   margin: 0 auto;
   padding-right: 15px;
@@ -329,12 +329,11 @@ color: #434455;
   padding: 100px 0;
   background: var(--primary-text-color);
 }
-/* .logo .logo-footer {
+
+.map {
+  display: inline-block;
   margin-bottom: 16px; 
-} */
-.container .logo {
-  margin-bottom: 16px; 
-} 
+}
 
 .footer-studio {
   color: var(--color-teamcard);
