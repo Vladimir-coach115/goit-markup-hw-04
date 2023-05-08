@@ -238,8 +238,12 @@ body {
 } 
 
 .icon-advanteges {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: #F4F4FD;
   border-radius: 4px;
+  margin-bottom: 8px;
   padding: 24px 100px;
 }
 
