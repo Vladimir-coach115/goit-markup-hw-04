@@ -360,7 +360,7 @@ section {
  /* 5 секция Customers */
 
 .customers {
-  /* text-align: center; */
+  text-align: center;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -380,20 +380,32 @@ section {
   gap: 24px;
 }
 .customers-item {
-  flex-basis: calc((100% - 120px) / 6);
+  width: calc((100% - 120px) / 6);
   width: 168;
   height: 88px;
   padding: 16px 32px;
   border-radius: 4px;
   border: 1px solid #8e8f99;
 }
-.customers-item:hover,
-.customers-item:focus {
-  background-color: var(--accent-color);
-}
+
 .log {
-  
+  width: 100%;
+  /* border: 1px solid #8e8f99;
+  border-radius: 4px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8e8f99;
+  fill: currentColor; 
 }
+
+.log:hover,
+.log:focus {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+  }
+
+
 
 
 /* Подвал */
