@@ -355,9 +355,9 @@ section {
 }
 
 /* 4 секція - соціальні мережі */
-/* .teamcard {
+.teamcard {
   padding: 32px 0;
-} */
+}
 .social-networks {
 display: flex;
 flex-direction: row;
