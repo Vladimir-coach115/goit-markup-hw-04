@@ -360,13 +360,13 @@ section {
 }
 .social-networks {
 display: flex;
-flex-direction: row;
+/* flex-direction: row; */
 justify-content: center;
 gap: 24px;
 outline: 2px solid yellow;
 }
 .social-list  {
-  flex-basis: calc((100% - 72px) / 4);
+  /* flex-basis: calc((100% - 72px) / 4); */
   width: 40px;
   height: 40px; 
 }
