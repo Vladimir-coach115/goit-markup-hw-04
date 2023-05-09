@@ -379,11 +379,11 @@ section {
 }
 .customers-item {
   width: calc((100% - 120px) / 6);
-  /* width: 168px; */
+  width: 168px;
   height: 88px; 
   /* padding: 16px 32px; */
-  border-radius: 4px;
-  border: 1px solid #8e8f99;
+  /* border-radius: 4px;
+  border: 1px solid #8e8f99; */
 }
 .log-link {
   width: 100%;
