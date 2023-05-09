@@ -318,21 +318,21 @@ section {
   display: flex;
   gap: 24px;
   justify-content: center;
-  outline: 2px solid pink;
+  /* outline: 2px solid pink; */
 }
 .personal {
   border-radius: 0px 0px 4px 4px; 
   flex-basis: calc((100% - 92px) / 4);
   background-color: var(--primary-white-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  outline: 2px solid green;
+  /* outline: 2px solid green; */
 }
 .excerpt {
   padding-top: 32px;
   padding-bottom: 32px;
   padding-right: 16px;
   padding-left: 16px;
-  /* outline: 5px solid black; */
+  outline: 5px solid black;
 }
 
 .section-subtitle {
@@ -358,22 +358,21 @@ section {
 
 .social-networks {
 display: flex;
+flex-direction: row;
 justify-content: center;
 gap: 24px;
-/* outline: 2px solid yellow; */
+outline: 2px solid yellow;
 }
 .social-list  {
   flex-basis: calc((100% - 72px) / 4);
 }
 .social-link {
-  /* outline: 2px solid green; */
   display: flex;
   justify-content: center;
   align-items: center;
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  /* color: ; */
   background-color: var(--brand-color);
 }
 .social-link:hover,
@@ -381,9 +380,7 @@ gap: 24px;
 background-color: var(--accent-color);
 }
 .networks {
-  /* background: #F4F4FD; */
-
-  /* background-color: var(--color-teamcard); */
+  fill: var(--color-teamcard);
 }
  
 /* 5 секция Customers */
