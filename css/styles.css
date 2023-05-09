@@ -354,8 +354,6 @@ section {
   color: var(--mini-text-color);
 
 
-
-
 }
  /* 5 секция Customers */
 
@@ -398,13 +396,15 @@ section {
   color: #8e8f99;
   
 }
-.log:hover,
-.log:focus {
+.log-link:hover,
+.log-link:focus {
     border-color: var(--accent-color);
     color: var(--accent-color);
   }
 
- fill: currentColor; 
+ .lol {
+  fill: currentColor;
+} 
 
 
 
