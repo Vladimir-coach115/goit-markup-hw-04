@@ -355,7 +355,9 @@ section {
 }
 
 /* 4 секція - соціальні мережі */
-
+.excerpt {
+  padding: 32px 0;
+}
 .social-networks {
 display: flex;
 flex-direction: row;
