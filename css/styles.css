@@ -438,15 +438,14 @@ background-color: var(--accent-color);
 
 
 
-/* Подвал */
-
-.social-icons {
-  display: flex;
-  align-items: baseline;
-}
+             /* Подвал */  
 .footer {
   padding: 100px 0;
   background: var(--primary-text-color);
+}
+.social-icons {
+  display: flex;
+  align-items: baseline;
 }
 .footer-logo {
   margin-right: 120px;
@@ -473,11 +472,10 @@ background-color: var(--accent-color);
 /* Подвал - соціальні мережі*/
 
 .footer-social {
-  /* display: flex; */
+  
   margin-left: 120px;
-  outline: 2px solid green;
+  /* outline: 2px solid green; */
 }
-
 .footer-social-text {
   margin-bottom: 16px;
   font-weight: 500;
