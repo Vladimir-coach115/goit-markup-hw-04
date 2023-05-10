@@ -90,7 +90,6 @@ body {
 
 }
 
-
 .header .container {
   display: flex;
   margin: 0 auto;
@@ -364,7 +363,7 @@ section {
 display: flex;
 justify-content: center;
 gap: 24px;
-/* outline: 2px solid yellow; */
+
 }
 .social-list  {
   width: 40px;
@@ -436,9 +435,7 @@ background-color: var(--accent-color);
   fill: currentColor;
 } 
 
-
-
-             /* Подвал */  
+   /*  Подвал  */
 .footer {
   padding: 100px 0;
   background: var(--primary-text-color);
@@ -449,7 +446,6 @@ background-color: var(--accent-color);
 }
 .footer-logo {
   margin-right: 120px;
-  outline: 2px solid pink;
 }
 .map {
   display: inline-block;
@@ -489,7 +485,7 @@ background-color: var(--accent-color);
   justify-content: center;
   align-items: center;
   gap: 16px;
-  outline: 2px solid yellow;
+  /* outline: 2px solid yellow; */
 }
 .footer-social-list {
   width: 40px;
@@ -528,10 +524,6 @@ background-color: var(--accent-color);
   gap: 24px;
   margin-bottom: 72px;
 }
-/* .pic {
-
-} */
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -569,6 +561,7 @@ background-color: var(--accent-color);
   color: var(--primary-white-color);
   background: var(--accent-color);
   border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .menu { 
 display: flex;
@@ -581,6 +574,14 @@ row-gap: 48px;
   background: var(--primary-white-color);
   border: 1px solid #E7E9FC;
   width: calc((100%-48px)/3);
+}
+
+.pic-link {
+  display: block;
+}
+.pic-link:hover,
+.pic-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .desc {
