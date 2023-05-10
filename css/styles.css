@@ -332,7 +332,7 @@ section {
   padding-bottom: 32px;
   padding-right: 16px;
   padding-left: 16px; */
-  outline: 5px solid black;
+  /* outline: 5px solid black; */
 }
 
 .section-subtitle {
@@ -362,10 +362,9 @@ section {
 display: flex;
 justify-content: center;
 gap: 24px;
-outline: 2px solid yellow;
+/* outline: 2px solid yellow; */
 }
 .social-list  {
-  /* flex-basis: calc((100% - 72px) / 4); */
   width: 40px;
   height: 40px; 
 }
@@ -374,8 +373,7 @@ outline: 2px solid yellow;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height:100%;
-  width: 40px;
+  height: 100%;
   border-radius: 50%;
   background-color: var(--brand-color);
 }
@@ -440,22 +438,26 @@ background-color: var(--accent-color);
 
 /* Подвал */
 
+.social-icons {
+  display: flex;
+}
 .footer {
   padding: 100px 0;
   background: var(--primary-text-color);
 }
+.footer-logo {
 
+  outline: 2px solid pink;
+}
 .map {
   display: inline-block;
   margin-bottom: 16px; 
 }
-
 .footer-studio {
   color: var(--color-teamcard);
   display: inline-block;
   margin-bottom: 16px; 
 }
-
 .footer-text {
   max-width: 264px;
   font-weight: 400;
@@ -465,6 +467,48 @@ background-color: var(--accent-color);
   color: var(--color-teamcard);
   background: var(--primary-text-color);
 }
+/* Подвал - соціальні мережі*/
+
+.footer-social {
+  /* display: flex; */
+  margin-left: 120px;
+  outline: 2px solid green;
+}
+
+.footer-social-text {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5px;
+  letter-spacing: 0.02em;
+  color: var(--primary-white-color);
+}
+.footer-social-networks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  /* outline: 2px solid yellow; */
+}
+.footer-social-list {
+  width: 40px;
+  height: 40px; 
+}
+.footer-social-link  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: var(--brand-color);
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--accent-color);
+}
+
+
 
 
 /* Portfolio */
