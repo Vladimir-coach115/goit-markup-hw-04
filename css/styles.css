@@ -488,7 +488,6 @@ background-color: var(--accent-color);
   justify-content: center;
   align-items: center;
   gap: 16px;
-  /* outline: 2px solid yellow; */
 }
 .footer-social-list {
   width: 40px;
@@ -576,7 +575,6 @@ row-gap: 48px;
 .iteam {
   max-width: 360px;
   background: var(--primary-white-color);
-  border: 1px solid #E7E9FC;
   width: calc((100%-48px)/3);
 }
 
