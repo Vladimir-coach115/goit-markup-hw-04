@@ -203,8 +203,9 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
   border: none;
-  min-width: 169px;
-  height: 56px;
+  padding: 16px 32px;
+  /* min-width: 169px;
+  height: 56px; */
   border-radius: 4px;
   color: var(--primary-white-color) ;
   background-color: var(--brand-color);
@@ -255,6 +256,7 @@ body {
 .advantages-title {
   margin-bottom: 8px;
 }
+
 .advantages-text {
 font-weight: 400;
 font-size: 16px;
@@ -346,6 +348,7 @@ section {
   color: var(--primary-text-color);
 }
 .section-text {
+  margin-bottom: 8px;
   text-align: center;
   font-style: normal;
   font-weight: 400;
@@ -363,11 +366,12 @@ section {
 display: flex;
 justify-content: center;
 gap: 24px;
-
+/* outline: 2px solid green; */
 }
 .social-list  {
   width: 40px;
   height: 40px; 
+  /* outline: 2px solid pink; */
 }
 .social-link {
   display: flex;
@@ -445,7 +449,7 @@ background-color: var(--accent-color);
   align-items: baseline;
 }
 .footer-logo {
-  margin-right: 120px;
+  /* margin-right: 120px; */
 }
 .map {
   display: inline-block;
@@ -457,6 +461,7 @@ background-color: var(--accent-color);
   margin-bottom: 16px; 
 }
 .footer-text {
+  background-color: #E7E9FC;
   max-width: 264px;
   font-weight: 400;
   font-size: 16px;
@@ -468,9 +473,7 @@ background-color: var(--accent-color);
 /* Подвал - соціальні мережі*/
 
 .footer-social {
-  
   margin-left: 120px;
-  /* outline: 2px solid green; */
 }
 .footer-social-text {
   margin-bottom: 16px;
@@ -540,21 +543,22 @@ background-color: var(--accent-color);
 /* Кнопки Portfolio */
 .btn {
   font-family: "Roboto", sans-serif; 
-  font-weight: 500;
+  /* font-weight: 500; */
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   display: block;
   align-items: center;
   text-align: center;
-  cursor: pointer;
 }
 .btn-link {
+  font-weight: 500;
+  cursor: pointer;
   padding: 12px 24px;
   border-radius: 4px;
   border: 1px solid #e7e9fc;
   color: var(--brand-color);
-  /* background-color: var(--color-teamcard); */
+  background-color: var(--color-teamcard);
 }
 .btn-link:hover,
 .btn-link:focus {
